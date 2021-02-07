@@ -3,6 +3,6 @@
     solid android:color="#000"/>
     <gradient android:startColor="#3D0A95"
         android:endColor="#731E1E"
-        android:centerColor="#000"/>
+        android:centerColor="#984444"/>
 
 </shape>
