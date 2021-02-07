@@ -16,7 +16,7 @@
             android:layout_height="50dp"
             android:text="RESULT"
             android:textStyle="bold"
-            android:textColor="#850606"
+            android:textColor="#9C27B0"
             android:textSize="40dp"
             android:gravity="center" />
     </LinearLayout>
