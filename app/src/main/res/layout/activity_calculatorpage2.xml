@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calculatorpage2"
+    android:orientation="vertical"
+    android:background="@drawable/calculatordesign">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/result_txt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="RESULT"
+            android:textStyle="bold"
+            android:textColor="#850606"
+            android:textSize="40dp"
+            android:gravity="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="90dp">
+        <TextView
+            android:id="@+id/num1_txt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Enter number 1"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:fontFamily="casual"
+            android:textColor="#E6E3DDDD"
+            android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="90dp">
+        <TextView
+            android:id="@+id/num2_txt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Enter number 2"
+            android:gravity="center"
+            android:textColor="#FAF8F8"
+            android:textSize="30dp"
+            android:fontFamily="casual"
+            android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="90dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/submit_bu"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:text="Submit"
+            android:gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#090808"
+            android:textSize="30dp"
+            android:background="@drawable/buttondesign"/>
+    </LinearLayout>
+
+</LinearLayout>
